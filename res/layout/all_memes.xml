@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollNames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF" >
+
+        <LinearLayout
+            android:layout_width="288dp"
+            android:layout_height="fill_parent"
+            android:background="#FFFFFF"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#FFFFFF"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/HouDeKharcha"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#FFFFFF"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/AaliLahar"
+                android:textColorHighlight="#FFF"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#FFFFFF"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/jinklas"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="fill_vertical"
+                android:background="#FFFFFF"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/manditSandhi"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#FFFFFF"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/ekFight"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </ScrollView>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</TableLayout>

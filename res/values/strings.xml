@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MarathiMeme</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="HouDeKharcha">Ho De Kharcha</string>
+    <string name="AaliLahar">Aali Lahar Kela Kahar</string>
+    <string name="jinklas">Jinklas Bhaava</string>
+    <string name="manditSandhi">Manditt Sandhi</string>
+    <string name="ekFight">Ek Fight</string>
+
+</resources>
